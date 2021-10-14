@@ -1,5 +1,5 @@
 // Declarar uma variável qualquer, que receba um objeto vazio.
-var pessoa = null;
+var pessoa = new Object();
 
 /*
 Declarar uma variável `pessoa`, que receba suas informações pessoais.
@@ -119,9 +119,7 @@ Qual o nome completo da pessoa? (Use a instrução para responder e comentários
 /*
 Faça a `pessoa` fazer 3 aniversários.
 */
-while (fazerAniversario() * 3) {
-    console.log(pessoa.fazerAniversario());
-}
+
 
 /*
 Quantos anos a `pessoa` tem agora? (Use a instrução para responder e
